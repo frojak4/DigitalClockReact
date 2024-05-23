@@ -1,0 +1,27 @@
+body {
+  font-family: arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+
+  background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-mountain-landscape-before-sunset-free-photo.jpg?w=2210&quality=70);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.clock-container{
+    backdrop-filter: blur(10px);
+    width: 30vw;
+    text-align: center;
+    padding: 20px 0px;
+    box-shadow: 3px 3px 15px hsla(0, 0%, 0%, 0.5);
+}
+
+.clock{
+  font-size: 10vh;
+  color: white;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.8);
+}
